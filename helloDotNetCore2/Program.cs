@@ -16,7 +16,7 @@ namespace helloDotNetCore2
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-        //123
+        
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
